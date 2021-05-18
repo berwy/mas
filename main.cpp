@@ -8,8 +8,14 @@ int main()
  cin >> n; 
 
 
- cout << "Input m ( n masīva elementus)" << endl;
- cin >> m; 
+ cout << "Input n masīva elementus" << endl;
+
+for (int i=0; i<n; i++) 
+{
+cin >> mas[i];
+}
+
+
 
 for (int i=0; i<n; i++) 
 {
